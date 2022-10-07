@@ -36,7 +36,7 @@ public class run {
 		//Display the correct card information		
 				for(int i=0; i < 5; i++)
 				{
-					print+= ConvertDeck(cardHand[i].getNum())+printSign(cardHand[i].getSign())+ " ";
+					print+= ConvertDeck(cardHand[i].getNum())+printSign(cardHand[i].getSign())+ ", ";
 				}
 				
 		//display output 		
@@ -89,18 +89,18 @@ public class run {
     	String str =""; 
     	if(sign==1)
     	{
-    		str= "♥";
+    		str= " of hearts";
     		
     	}else if(sign==2)
     	{
-    		str= "♦";
+    		str= " of diamonds";
     	}else if(sign==3)
     	{
-    		str= "♣";
+    		str= " of clubs";
     		
     	}else if(sign==4)
     	{
-    		str= "♠";
+    		str= " of spades";
     	}
     	return str;
     }
