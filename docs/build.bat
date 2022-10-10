@@ -1,7 +1,3 @@
-REM Mr. A. Maganlal
-REM Computer Science 2A 2018
-REM This batch file is setup to be more robust than previous versions
-
 REM Turn echo off and clear the screen
 @echo off
 cls
